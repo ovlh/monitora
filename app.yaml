@@ -1,0 +1,10 @@
+kind: wasmer.io/App.v0
+name: CloudEye
+package: .
+env:
+  DATA_DIR: "/data"
+  NODE_ENV: "production"
+  TZ: "Asia/Shanghai"
+volumes:
+  - name: data
+    mount: /data
