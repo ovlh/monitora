@@ -1,5 +1,5 @@
 kind: wasmer.io/App.v0
-name: CloudEye
+name: cloudeye
 package: .
 env:
   DATA_DIR: "/data"
